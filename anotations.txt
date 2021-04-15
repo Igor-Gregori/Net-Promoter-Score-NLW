@@ -1,0 +1,1 @@
+Para fazer setar a variável de ambiente como teste, preciso passar uma vez o comando "set NODE_ENV=test && jest", no script de test do package.json
