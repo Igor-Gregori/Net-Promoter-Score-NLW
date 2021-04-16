@@ -1,5 +1,6 @@
 <h1 align="center">:+1: API - Net Promoter Score :chart:</h1>
 
+<p align="center">
  <a href="https://www.linkedin.com/in/igor-gregori/">
     <img alt="Linkedin" src="https://img.shields.io/badge/-Igor%20Gregori-0e76a8?label=Linkedin&logo=linkedin&style=flat-square"/>
   </a>
@@ -18,6 +19,7 @@
   <a href="https://github.com/Igor-Gregori/Net-Promoter-Score-NLW/network">
     <img alt="GitHub forks" src="https://img.shields.io/github/forks/Igor-Gregori/Net-Promoter-Score-NLW?color=EBEBEB&style=flat-square"/>
   </a>
+</p>
 
 <p align="center">
   <a href="#page_facing_up-descrição">Descrição</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -54,7 +56,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 <img src="./.github/diagramaNPS.png" alt="Diagrama da aplicação" />
 
-## 🚀 Como executar
+## :computer: Instalação
 
 ### Pré-requisitos
 
