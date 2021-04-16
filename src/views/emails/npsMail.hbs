@@ -1,46 +1,55 @@
-<style>
-    .container {
-        width: 800px;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-        display: flex;
-        flex-direction: column;
-    }
+        <style>
+            .container {
+                width: 400px;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                display: flex;
+                flex-direction: column;
 
-    .value {
-        padding: 10px;
-        background: #1021e3;
-        color: #fff;
-        border-radius: 30px;
-        width: 15px;
-        text-align: center;
-        text-decoration: none;
-        margin: 1px;
-    }
+                background-color: #202024;
+                border-radius: 25px;
 
-    .level {
-        display: flex;
-        margin: 10px;
-        justify-content: space-between;
-        width: 350px;
-    }
-
-    .answers {
-        width: 350px;
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .font {
-        color: #1021e3;
-    }
-</style>
+                font-family: 'Roboto', sans-serif;
+                color: white;
+            }
+        
+            .value {
+                padding: 10px;
+                background: #8257E5;
+                color: #fff;
+                border-radius: 20%;
+                width: 15px;
+                text-align: center;
+                text-decoration: none;
+                margin: 1px;
+            }
+        
+            .level {
+                display: flex;
+                margin: 10px;
+                justify-content: space-between;
+                width: 350px;
+            }
+        
+            .answers {
+                width: 350px;
+                display: flex;
+                justify-content: space-between;
+            }
+        
+            .font {
+                color: #8257E5;
+            }
+        </style>
 
 <div class="container">
-    <label class="font">Olá <strong>{{name}}</strong> ! Tudo bem ?</label>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
 
-    <h3>{{title}}</h3>
+    <h3 class="font">Olá <strong>{{name}}</strong> ! Tudo bem ?</h3>
+
+    <p>{{title}}</p>
     <br />
     <strong>{{description}}</strong>
 
