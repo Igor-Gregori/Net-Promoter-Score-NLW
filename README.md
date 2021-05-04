@@ -67,7 +67,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 # Clone este repositório.
 $ git clone https://github.com/Igor-Gregori/Net-Promoter-Score-NLW
 
-# Vá para a pasta moveit
+# Vá para a pasta Net-Promoter-Score-NLW
 $ cd Net-Promoter-Score-NLW
 
 # Instale as dependências
