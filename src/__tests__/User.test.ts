@@ -4,6 +4,8 @@ import { app } from "../app";
 import createConnection from "../database";
 
 describe("Users", () => {
+  let idUserTest = null;
+
   beforeAll(async () => {
     const connection = await createConnection();
     await connection.runMigrations();
@@ -21,6 +23,9 @@ describe("Users", () => {
       name: "User Example",
     });
 
+    const { id } = response.body;
+    idUserTest = id;
+
     expect(response.status).toBe(201);
   });
 
@@ -32,4 +37,14 @@ describe("Users", () => {
 
     expect(response.status).toBe(400);
   });
+
+  it("Should be update a user", async () => {
+    const response = await request(app).put("/users").send({
+      id: idUserTest,
+      email: "user@example.com",
+      name: "User Example Updated",
+    });
+
+    expect(response.status).toBe(201);
+  })
 });
